@@ -1,0 +1,17 @@
+{
+  "name": "nextworld.backend",
+  "version": "1.0.0",
+  "description": "tracking social app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.81.0"
+  }
+}

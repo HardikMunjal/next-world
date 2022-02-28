@@ -3,8 +3,6 @@ var auth = {
 
   validateCredential: function (req, res, next) {
 
-    console.log('MY REQUEST BODY',req.body)
-
     if (!req.body.name || !req.body.email) {
       return res.json({ 'error': 'Name & Email is mandatory to authenticate' })
     }
